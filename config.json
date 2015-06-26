@@ -1,0 +1,17 @@
+{
+  "refs": {
+    "ssDNA": {
+      "type": "micro-1.5",
+      "aliquots": {
+        "0": {
+          "volume": "50:microliter"
+        }
+      },
+      "store": "cold_20"
+    }
+  },
+  "parameters":{
+    "ssDNA": "ssDNA/0",
+    "mutants": "2zb4,i65y+m135a,gctggtcagacctggCGCaccaattgcacccag,cagctgccacggggtATAataatcggtgccggt\n2zb4,d49h+y51g+f99w,ctgccaaggccaataCCAgctggtaacaaaatc,catacgacaacgcatGCCcggATGaacgctcagatacag\n2zb4,d49h+y51g+g77n+f99y,ctgccaaggccaataATAgctggtaacaaaatc,gataataccaataccGTTaccatcaacaacctg,catacgacaacgcatGCCcggATGaacgctcagatacag\n2zb4,d49h+g77n+f99y,ctgccaaggccaataATAgctggtaacaaaatc,gataataccaataccGTTaccatcaacaacctg,acaacgcatatacggATGaacgctcagatacag\n2zb4,d49h,acaacgcatatacggATGaacgctcagatacag\n2zb4,d49h,acaacgcatatacggATGaacgctcagatacag\n2zb4,d49h+m135k,gctggtcagacctggTTTaccaattgcacccag,acaacgcatatacggATGaacgctcagatacag\n2zb4,d49h+f99w+m135k,gctggtcagacctggTTTaccaattgcacccag,ctgccaaggccaataCCAgctggtaacaaaatc,acaacgcatatacggATGaacgctcagatacag\n2zb4,d49h+y51a+f99w+m135k,gctggtcagacctggTTTaccaattgcacccag,ctgccaaggccaataCCAgctggtaacaaaatc,catacgacaacgcatCGCcggATGaacgctcagatacag\n2zb4,d49h+y51g,catacgacaacgcatGCCcggATGaacgctcagatacag\n2zb4,d49h+y51a+m52h,attcatacgacaacgATGCGCcggATGaacgctcagatacag\n2zb4,d49h+y51a+m52h+m135k,gctggtcagacctggTTTaccaattgcacccag,attcatacgacaacgATGCGCcggATGaacgctcagatacag\n2zb4,d49h+y51a,catacgacaacgcatCGCcggATGaacgctcagatacag\n2zb4,d49h+a166s,tgcaacgctaccacaGCTaccggctgcaccgct,acaacgcatatacggATGaacgctcagatacag\n2zb4,s47k+d49h+k340s,gatacacacaatttgGCTgccaatattgccacc,acaacgcatatacggATGaacTTTcagatacagggtacg\n2zb4,i65h,cagctgccacggggtATGataatcggtgccggt\n2zb4,c54w+i65h,cagctgccacggggtATGataatcggtgccggt,atcttcattcatacgCCAacgcatatacggatc\n2zb4,d49h+y51g+m135k,gctggtcagacctggTTTaccaattgcacccag,catacgacaacgcatGCCcggATGaacgctcagatacag\n2zb4,i65y+m135a,gctggtcagacctggCGCaccaattgcacccag,cagctgccacggggtATAataatcggtgccggt\n2zb4,i65y+m135a,gctggtcagacctggCGCaccaattgcacccag,cagctgccacggggtATAataatcggtgccggt\n2zb4,d49h+y51a,catacgacaacgcatCGCcggATGaacgctcagatacag\n2zb4,d49h,acaacgcatatacggATGaacgctcagatacag\n2zb4,d49h+y51a+m52d+g76w+m135w,gctggtcagacctggCCAaccaattgcacccag,aataccaataccaccCCAatcaacaacctggct,attcatacgacaacgATCCGCcggATGaacgctcagataca\n2zb4,d49h+y51a+m52d+m135w,gctggtcagacctggCCAaccaattgcacccag,attcatacgacaacgATCCGCcggATGaacgctcagatacag\n2zb4,d49h+y51a+m52d+f99y+m135w,gctggtcagacctggCCAaccaattgcacccag,ctgccaaggccaataATAgctggtaacaaaatc,attcatacgacaacgATCCGCcggATGaacgctcagatacag\n2zb4,d49h+y51a+m52d+g76d+f99y+m135w,gctggtcagacctggCCAaccaattgcacccag,ctgccaaggccaataATAgctggtaacaaaatc,aataccaataccaccATCatcaacaacctggct,attcatacgacaacgATCCGCcggATGaacgctcagatacag\n2zb4,i65y,cagctgccacggggtATAataatcggtgccggt"
+  }
+}

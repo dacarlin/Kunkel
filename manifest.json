@@ -1,0 +1,41 @@
+{
+  "version": "0.1",
+  "protocols": [
+    {
+      "name": "Kunkel",
+      "description": "Kunkel mutagenesis",
+      "command_string": "python -m kunkel",
+      "inputs": {
+        "mutants": {
+          "type": "string",
+          "label": "CSV with one mutant per line in the form <ssDNA, mutant name, oligo1, oligo2, ...>"
+          },
+        "ssDNA": {
+          "type": "aliquot",
+          "label": "ssDNA to use as scaffold",
+          "description": "ssDNA to use as scaffold"
+        }
+      },
+      "preview": {
+        "refs": {
+          "ssDNA": {
+            "type": "micro-1.5",
+            "aliquots": {
+              "0": {
+                "volume": "50:microliter"
+              }
+            },
+            "store": "cold_20"
+          }
+        },
+      "parameters":{
+          "ssDNA": "ssDNA/0",
+          "mutants": "jeff,jefferson,atg,atg,atg,act,act,atg,atcgcgcggagcgctatcgcgcgtcgc,atcgtcgtcgcttgctcgt\njeff2,a123b+cs31d,atg,ccc\njeff4,jeffersossssn,atg,atg,atg,actgggt,act,atg,atcgcgcggagcgctatcgcgccgtcgc,atcgtcgtattgctcgt\njeff2,a123sb+c31d,atg,ccc"
+      },
+      "dependencies": []
+    }
+  }
+],
+  "license": "GPL",
+  "format": "python"
+}
